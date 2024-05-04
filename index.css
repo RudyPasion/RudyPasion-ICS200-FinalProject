@@ -1,0 +1,90 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+body{
+
+    background: rgb(27, 27, 27);
+
+}
+
+.contrainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 50%;
+    margin-right: auto;
+}
+
+header {
+    background-color: #79a3b1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card{
+    
+    background: white;
+    width: 270px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.card-image{
+
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.pancit-1{
+
+    background-image: url('https://www.marionskitchen.com/wp-content/uploads/2019/10/One-Pan-Filipino-%E2%80%98Pancit-Bihon%E2%80%99-Noodles2.jpg')
+}
+
+.pancit-2{
+
+    background-image: url('https://whisperofyum.com//wp-content/uploads/2022/03/pancit-canton-closeup-683x1024.jpg')
+}
+
+.pancit-3{
+
+    background-image: url('https://live.staticflickr.com/15/69898579_648ffdb61e_b.jpg')
+}
+
+.pancit-4{
+
+    background-image: url('https://www.foxyfolksy.com/wp-content/uploads/2015/07/palabok-1.jpg')
+}
+
+.card p{
+
+    padding: 10px;
+}
+
+.card a{
+
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align:center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
